@@ -13,11 +13,11 @@ h1 {
     border: deepskyblue dotted;
 }
 
-#prihlasovaciOblast {
+#formularovaOblast {
     background-color: darksalmon;
     margin: auto;
     margin-top: auto;
-    height: 100px;
+    height: 150 px;
     width: 300px;
     padding: 20px;
     text-align: center;

@@ -3,19 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <link rel="stylesheet" href="index.css">
     <script src="index.js"></script>
     <title>Webová hra</title>
 </head>
 <body>
     <h1>Název hry</h1>
-    <div id="prihlasovaciOblast">
-        <form method="POST" action="">
+    <div id="formularovaOblast">
+        <h2 id="nadpisFormulare">Přihlášení</h2>
+        <form id="prihlasovaciOblast" method="POST" action="">
             <input id="jmeno" type="text" placeholder="Jméno..."><br>
             <input type="password" placeholder="Heslo..."><br>
-            <input id="tlacitko" type="submit" value="Přihlásit se">
+            <input id="tlacitko" type="submit" value="Přihlásit se"><br>
+            <span onclick="zmenitFormular()" id="typFormulare">Nemáš účet ?</span>
         </form>
-        <span onclick="zmenitFormular()" id="typFormulare">Zaregistrovat se</span>
     </div>
 </body>
 </html>
